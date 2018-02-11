@@ -1,0 +1,303 @@
+#matter-port-frame{ 
+       width:100%; 
+       height:580px;
+} 
+#matter-port-demo-frame{
+    width:100%;
+    height:100%;
+}
+.filter-ops .ribbon-box:before,
+.ribbon-box:before {
+    display: block;
+    width: 0;
+    content: ""
+}
+.form-group {
+    margin-left: -15px;
+    margin-right: -15px;
+    margin-bottom: 20px
+}
+.form-material {
+    position: relative;
+    margin: 5px 0 10px
+}
+.form-material input:focus {
+    outline: 0;
+    border: none
+}
+.form-material>label {
+    position: absolute;
+    bottom: 6px;
+    left: 0;
+    font-size: 13px;
+    font-weight: 600;
+    -webkit-transform: translateY(-24px);
+    -ms-transform: translateY(-24px);
+    transform: translateY(-24px);
+}
+.form-material select.form-control+label {
+    bottom: 30px
+}
+.form-material.floating>label {
+    font-size: 16px !important;
+    font-weight: 400;
+    cursor: text;
+    z-index: 4;
+    -webkit-transition: all .15s ease-out;
+    transition: all .15s ease-out;
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+    color: #bbb;
+    -webkit-user-select: none;
+    -moz-user-select: -moz-none;
+    -o-user-select: none;
+    user-select: none;
+}
+.form-material.floating>.form-control[disabled]+label,
+.form-material.floating>.form-control[readonly]+label,
+fieldset[disabled] .form-material.floating>label {
+    cursor: not-allowed
+}
+.form-material>.form-control,
+.form-material>.form-control:hover {
+    padding: 1.25rem 0 .5rem!important;
+    border: 0;
+    border-radius: 0;
+    background-color: transparent;
+    -webkit-appearance: none;
+    -webkit-box-shadow: 0 2px 0 #e6e6e6;
+    box-shadow: 0 2px 0 #e6e6e6;
+    font-size: 16px
+}
+.form-material>textarea.form-control, .form-material>textarea.form-control:hover {
+     padding: 0rem 0 .5rem!important;
+    min-height:85px !important;
+}
+.form-material input[type=email].form-control,
+.form-material input.form-control {
+    height: 53px !important
+}
+.form-material>.form-control:focus {
+    background-color: transparent;
+    -webkit-box-shadow: 0 2px 0 #5497FF;
+    box-shadow: 0 2px 0 #5497FF
+}
+.form-material>.form-control:focus+label {
+    color: #646464
+}
+.form-material>.form-control:focus~.input-group-addon {
+    -webkit-box-shadow: 0 2px 0 #646464;
+    box-shadow: 0 2px 0 #646464
+}
+.form-material.floating.open>label,
+.form-material>.form-control:focus+label {
+    font-size: 14px !important;
+    font-weight: normal;
+    cursor: default;
+    -webkit-transform: translateY(-30px);
+    -ms-transform: translateY(-30px);
+    transform: translateY(-30px);
+    -moz-transform: translateY(-30px);
+    font-style: normal
+}
+.form-material .form-control[disabled],
+.form-material .form-control[readonly],
+.form-material fieldset[disabled] .form-control {
+    background-color: #fff;
+    border-bottom: 1px dashed #ccc;
+    -webkit-box-shadow: none;
+    box-shadow: none
+}
+.form-material.input-group .input-group-addon {
+    border: none;
+    background-color: transparent;
+    border-radius: 0!important;
+    -webkit-box-shadow: 0 1px 0 #e6e6e6;
+    box-shadow: 0 1px 0 #e6e6e6;
+    -webkit-transition: all .15s ease-out;
+    transition: all .15s ease-out
+}
+.form-material.form-material-primary>.form-control:focus {
+    -webkit-box-shadow: 0 2px 0 #5c90d2;
+    box-shadow: 0 2px 0 #5c90d2
+}
+.form-material.form-material-primary>.form-control:focus+label {
+    color: #5c90d2
+}
+.form-material.form-material-primary>.form-control:focus~.input-group-addon {
+    color: #5c90d2;
+    -webkit-box-shadow: 0 2px 0 #5c90d2;
+    box-shadow: 0 2px 0 #5c90d2
+}
+.form-material.form-material-success>.form-control:focus {
+    -webkit-box-shadow: 0 2px 0 #46c37b;
+    box-shadow: 0 2px 0 #46c37b
+}
+.form-material.form-material-success>.form-control:focus+label {
+    color: #46c37b
+}
+.form-material.form-material-success>.form-control:focus~.input-group-addon {
+    color: #46c37b;
+    -webkit-box-shadow: 0 2px 0 #46c37b;
+    box-shadow: 0 2px 0 #46c37b
+}
+.form-material.form-material-info>.form-control:focus {
+    -webkit-box-shadow: 0 2px 0 #70b9eb;
+    box-shadow: 0 2px 0 #70b9eb
+}
+.form-material.form-material-info>.form-control:focus+label {
+    color: #70b9eb
+}
+.form-material.form-material-info>.form-control:focus~.input-group-addon {
+    color: #70b9eb;
+    -webkit-box-shadow: 0 2px 0 #70b9eb;
+    box-shadow: 0 2px 0 #70b9eb
+}
+.form-material.form-material-warning>.form-control:focus {
+    -webkit-box-shadow: 0 2px 0 #f3b760;
+    box-shadow: 0 2px 0 #f3b760
+}
+.form-material.form-material-warning>.form-control:focus+label {
+    color: #f3b760
+}
+.form-material.form-material-warning>.form-control:focus~.input-group-addon {
+    color: #f3b760;
+    -webkit-box-shadow: 0 2px 0 #f3b760;
+    box-shadow: 0 2px 0 #f3b760
+}
+.form-material.form-material-danger>.form-control:focus {
+    -webkit-box-shadow: 0 2px 0 #d26a5c;
+    box-shadow: 0 2px 0 #d26a5c
+}
+.form-material.form-material-danger>.form-control:focus+label {
+    color: #d26a5c
+}
+.form-material.form-material-danger>.form-control:focus~.input-group-addon {
+    color: #d26a5c;
+    -webkit-box-shadow: 0 2px 0 #d26a5c;
+    box-shadow: 0 2px 0 #d26a5c
+}
+.has-success .form-material>.form-control {
+    -webkit-box-shadow: 0 1px 0 #46c37b;
+    box-shadow: 0 1px 0 #46c37b
+}
+.has-success .form-material>.form-control:focus {
+    -webkit-box-shadow: 0 2px 0 #46c37b;
+    box-shadow: 0 2px 0 #46c37b
+}
+.has-success .form-material>.form-control:focus+label {
+    color: #46c37b
+}
+.has-success .form-material>.form-control:focus~.input-group-addon {
+    color: #46c37b;
+    -webkit-box-shadow: 0 2px 0 #46c37b;
+    box-shadow: 0 2px 0 #46c37b
+}
+.has-success .form-material>.form-control~.input-group-addon {
+    color: #46c37b;
+    -webkit-box-shadow: 0 1px 0 #46c37b;
+    box-shadow: 0 1px 0 #46c37b
+}
+.has-success .form-material label,
+.has-success .form-material>.help-block {
+    color: #46c37b
+}
+.has-info .form-material>.form-control {
+    -webkit-box-shadow: 0 1px 0 #70b9eb;
+    box-shadow: 0 1px 0 #70b9eb
+}
+.has-info .form-material>.form-control:focus {
+    -webkit-box-shadow: 0 2px 0 #70b9eb;
+    box-shadow: 0 2px 0 #70b9eb
+}
+.has-info .form-material>.form-control:focus+label {
+    color: #70b9eb
+}
+.has-info .form-material>.form-control:focus~.input-group-addon {
+    color: #70b9eb;
+    -webkit-box-shadow: 0 2px 0 #70b9eb;
+    box-shadow: 0 2px 0 #70b9eb
+}
+.has-info .form-material>.form-control~.input-group-addon {
+    color: #70b9eb;
+    -webkit-box-shadow: 0 1px 0 #70b9eb;
+    box-shadow: 0 1px 0 #70b9eb
+}
+.has-info .form-material label,
+.has-info .form-material>.help-block {
+    color: #70b9eb
+}
+.has-warning .form-material>.form-control {
+    -webkit-box-shadow: 0 1px 0 #f3b760;
+    box-shadow: 0 1px 0 #f3b760
+}
+.has-warning .form-material>.form-control:focus {
+    -webkit-box-shadow: 0 2px 0 #f3b760;
+    box-shadow: 0 2px 0 #f3b760
+}
+.has-warning .form-material>.form-control:focus+label {
+    color: #f3b760
+}
+.has-warning .form-material>.form-control:focus~.input-group-addon {
+    color: #f3b760;
+    -webkit-box-shadow: 0 2px 0 #f3b760;
+    box-shadow: 0 2px 0 #f3b760
+}
+.has-warning .form-material>.form-control~.input-group-addon {
+    color: #f3b760;
+    -webkit-box-shadow: 0 1px 0 #f3b760;
+    box-shadow: 0 1px 0 #f3b760
+}
+.has-warning .form-material label,
+.has-warning .form-material>.help-block {
+    color: #f3b760
+}
+.has-error .form-material>.form-control {
+    -webkit-box-shadow: 0 1px 0 #d8523d;
+    box-shadow: 0 1px 0 #d8523d
+}
+.has-error .form-material>.form-control:focus {
+    -webkit-box-shadow: 0 2px 0 #d8523d;
+    box-shadow: 0 2px 0 #d8523d
+}
+.has-error .form-material>.form-control:focus+label {
+    color: #d8523d
+}
+.has-error .form-material>.form-control:focus~.input-group-addon {
+    color: #d8523d;
+    -webkit-box-shadow: 0 2px 0 #d8523d;
+    box-shadow: 0 2px 0 #d8523d
+}
+.has-error .form-material>.form-control~.input-group-addon {
+    color: #d8523d;
+    -webkit-box-shadow: 0 1px 0 #d8523d;
+    box-shadow: 0 1px 0 #d8523d
+}
+.has-error .form-material label,
+.has-error .form-material>.help-block {
+    color: #d8523d
+}
+.form-material div.tagsinput {
+    padding-right: 0;
+    padding-left: 0;
+    border: none;
+    border-bottom: 1px solid #e6e6e6
+}
+.form-material .select2-container--default .select2-selection--single .select2-selection__rendered {
+    padding-left: 0
+}
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+    height: 34px
+}
+.form-material .select2-container--default .select2-selection--single {
+    border: none;
+    border-bottom: 1px solid #e6e6e6;
+    border-radius: 0
+}
+input:-webkit-autofill,
+input:-webkit-autofill:active,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:hover {
+    transition: background-color 5000s ease-in-out 0s
+}

@@ -1,0 +1,44 @@
+.btn-blue, 
+.btn-blue:hover, 
+.btn-blue:focus {
+	background:#0e3a5e;
+	color: #fff;
+	border: none;
+	font-family: $Avenir-Regular;
+	border-radius: 0;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 15px 50px;
+    float: right;
+    outline: 0;
+    margin-top: 15px;
+}
+
+.MB20 {
+	margin-bottom: 20px;
+}
+.add-new-entry-card {
+    cursor: pointer;
+}
+.btn_form.delete-button{
+      background-color: #730e08;
+}
+.btn_default{
+    height: 2.15em;
+    color: 	#0A395F;
+    font-size: 2em;
+    font-family: "Avenir-regular", Helvetica, sans-serif;
+    border-radius: 0;
+    line-height: 50px;
+}
+.add_button{
+    height: 50px;
+    color: 	#0A395F;
+    font-size: 2em;
+    font-family: "Avenir-regular", Helvetica, sans-serif;
+    border-radius: 15px;
+    border:2px solid;
+    background-color: #fff;
+    width:100%;
+    outline : 0 !important;
+}

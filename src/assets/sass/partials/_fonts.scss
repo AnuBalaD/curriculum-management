@@ -1,0 +1,63 @@
+@font-face {
+  font-family: 'Rockwell-bold';
+  src: url("/assets/fonts/ROCKB.TTF") format("truetype");
+}
+
+@font-face {
+  font-family: 'Rockwell-regular';
+  src: url("/assets/fonts/Rockwell.otf") format("opentype");
+}
+
+@font-face {
+  font-family: 'Rockwell-light';
+  src: url("/assets/fonts/rockwell-light.ttf") format("truetype");
+
+}
+
+@font-face {
+  font-family: 'Oswald-bold';
+  src: url("/assets/fonts/oswald.bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'Oswald-regular';
+  src: url("/assets/fonts/oswald-regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'Avenir-regular';
+  src: url("/assets/fonts/AvenirNextLTPro-Regular.otf") format("opentype");
+
+}
+
+@font-face {
+  font-family: 'Gobold-thin';
+  src: url('/assets/fonts/Gobold-Thin.ttf')  format('truetype');
+}
+
+@font-face {
+  font-family: 'Gill-sans-regular';
+  src: url('/assets/fonts/gill-sans.otf') format("opentype");
+}
+
+@font-face {
+  font-family: 'FontAwesome';
+    src: url('/assets/fonts/fontawesome-webfont.eot?v=4.7.0');
+    src: url('/assets/fonts/fontawesome-webfont.eot?#iefix&v=4.7.0') format('embedded-opentype'),
+		url('/assets/fonts/fontawesome-webfont.woff2?v=4.7.0') format('woff2'),
+		url('/assets/fonts/fontawesome-webfont.woff?v=4.7.0') format('woff'),
+		url('/assets/fonts/fontawesome-webfont.ttf?v=4.7.0') format('truetype'),
+		url('/assets/fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular') format('svg');
+    font-weight: 100;
+    font-style: normal
+}
+
+$Rockwell-Bold: 'Rockwell-bold', Helvetica, sans-serif;
+$Rockwell-Regular: 'Rockwell-regular', Helvetica, sans-serif;
+$Rockwell-Light: 'Rockwell-light', Helvetica, sans-serif;
+$Oswald-Bold: 'Oswald-bold', Helvetica, sans-serif;
+$Avenir-Regular: 'Avenir-regular', Helvetica, sans-serif;
+$Gobold-Thin: 'Gobold-thin', Helvetica, sans-serif;
+$FontAwesome: 'FontAwesome';
+$GillSans-Regular: 'Gill-sans-regular', Helvetica, sans-serif;
+$Oswald-Regular: 'Oswald-regular', Helvetica, sans-serif;

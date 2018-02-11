@@ -1,0 +1,528 @@
+/*Margin top helpers*/
+
+.MT0{
+	@include topMargin(0);
+}
+
+.MT5{
+	@include topMargin(5px);
+}
+
+.MT10{
+	@include topMargin(10px);
+}
+
+.MT15{
+	@include topMargin(15px);
+}
+
+.MT20{
+	@include topMargin(20px);
+}
+
+.MT25{
+	@include topMargin(25px);
+}
+
+.MT30 {
+	@include topMargin(30px);
+}
+
+/*Margin left helpers*/
+
+.ML0{
+	@include leftMargin(0);
+}
+
+.ML5{
+	@include leftMargin(5px);
+}
+
+.ML10{
+	@include leftMargin(10px);
+}
+
+.ML15{
+	@include leftMargin(15px);
+}
+
+.ML20{
+	@include leftMargin(20px);
+}
+
+.ML25{
+	@include leftMargin(25px);
+}
+
+.ML30 {
+	@include leftMargin(30px);
+}
+
+/*Margin right helpers*/
+
+.MR0{
+	@include rightMargin(0);
+}
+
+.MR5{
+	@include rightMargin(5px);
+}
+
+.MR10{
+	@include rightMargin(10px);
+}
+
+.MR15{
+	@include rightMargin(15px);
+}
+
+.MR20{
+	@include rightMargin(20px);
+}
+
+.MR25{
+	@include rightMargin(25px);
+}
+
+.MR30 {
+	@include rightMargin(30px);
+}
+
+/*Margin bottom helpers*/
+
+.MB0{
+	@include bottomMargin(0);
+}
+
+.MB5{
+	@include bottomMargin(5px);
+}
+
+.MB10{
+	@include bottomMargin(10px);
+}
+
+.MB15{
+	@include bottomMargin(15px);
+}
+
+.MB20{
+	@include bottomMargin(20px);
+}
+
+.MB25{
+	@include bottomMargin(25px);
+}
+
+.MB30 {
+	@include bottomMargin(30px);
+}
+
+/*Margin left right helpers*/
+.MLR0{
+	@include leftRightMargin(0,0);
+}
+
+.MLR5{
+	@include leftRightMargin(5px,5px);
+}
+
+.MLR10{
+	@include leftRightMargin(10px,10px);
+}
+
+.MLR15{
+	@include leftRightMargin(15px,15px);
+}
+
+.MLR20{
+@include leftRightMargin(20px,20px);
+}
+
+.MLR25{
+@include leftRightMargin(25px,25px);
+}
+
+.MLR30{
+@include leftRightMargin(30px,30px);
+}
+
+/*Margin top bottom helpers*/
+.MTB0{
+	@include topBottomMargin(0,0);
+}
+
+.MTB5{
+	@include topBottomMargin(5px,5px);
+}
+
+.MTB10{
+	@include topBottomMargin(10px,10px);
+}
+
+.MTB15{
+	@include topBottomMargin(15px,15px);
+}
+
+.MTB20{
+	@include topBottomMargin(20px,20px);
+}
+
+.MTB25{
+	@include topBottomMargin(25px,25px);
+}
+
+.MTB30{
+	@include topBottomMargin(30px,30px);
+}
+
+/*Margin equal top right bottom left helpers*/
+.MALL0 {
+	@include margins(0,0,0,0);
+}
+
+.MALL5 {
+	@include margins(5px,5px,5px,5px);
+}
+
+.MALL10 {
+	@include margins(10px,10px,10px,10px);
+}
+
+.MALL15 {
+	@include margins(15px,15px,15px,15px);
+}
+
+.MALL20 {
+	@include margins(20px,20px,20px,20px);
+}
+
+.MALL25 {
+	@include margins(25px,25px,25px,25px);
+}
+
+.MALL30 {
+	@include margins(30px,30px,30px,30px);
+}
+
+/*General margins*/
+.M0{
+	@include generalMargin(0);
+}
+
+.M5{
+	@include generalMargin(5px);
+}
+
+.M10{
+	@include generalMargin(10px);
+}
+
+.M15{
+	@include generalMargin(15px);
+}
+
+.M20{
+	@include generalMargin(20px);
+}
+
+.M25{
+	@include generalMargin(25px);
+}
+
+.M30{
+	@include generalMargin(30px);
+}
+
+
+
+
+
+
+
+/*Padding top helpers*/
+
+.PT0{
+	@include topPadding(0);
+}
+
+.PT5{
+	@include topPadding(5px);
+}
+
+.PT10{
+	@include topPadding(10px);
+}
+
+.PT15{
+	@include topPadding(15px);
+}
+
+.PT20{
+	@include topPadding(20px);
+}
+
+.PT25{
+	@include topPadding(25px);
+}
+
+.PT30 {
+	@include topPadding(30px);
+}
+
+/*Padding left helpers*/
+
+.PL0{
+	@include leftPadding(0);
+}
+
+.PL5{
+	@include leftPadding(5px);
+}
+
+.PL10{
+	@include leftPadding(10px);
+}
+
+.PL15{
+	@include leftPadding(15px);
+}
+
+.PL20{
+	@include leftPadding(20px);
+}
+
+.PL25{
+	@include leftPadding(25px);
+}
+
+.PL30 {
+	@include leftPadding(30px);
+}
+
+/*Padding right helpers*/
+
+.PR0{
+	@include rightPadding(0);
+}
+
+.PR5{
+	@include rightPadding(5px);
+}
+
+.PR10{
+	@include rightPadding(10px);
+}
+
+.PR15{
+	@include rightPadding(15px);
+}
+
+.PR20{
+	@include rightPadding(20px);
+}
+
+.PR25{
+	@include rightPadding(25px);
+}
+
+.PR30 {
+	@include rightPadding(30px);
+}
+
+/*Padding bottom helpers*/
+
+.PB0{
+	@include bottomPadding(0);
+}
+
+.PB5{
+	@include bottomPadding(5px);
+}
+
+.PB10{
+	@include bottomPadding(10px);
+}
+
+.PB15{
+	@include bottomPadding(15px);
+}
+
+.PB20{
+	@include bottomPadding(20px);
+}
+
+.PB25{
+	@include bottomPadding(25px);
+}
+
+.PB30 {
+	@include bottomPadding(30px);
+}
+
+/*Padding left right helpers*/
+.PLR0{
+	@include leftRightPadding(0,0);
+}
+
+.PLR5{
+	@include leftRightPadding(5px,5px);
+}
+
+.PLR10{
+	@include leftRightPadding(10px,10px);
+}
+
+.PLR15{
+	@include leftRightPadding(15px,15px);
+}
+
+.PLR20{
+@include leftRightPadding(20px,20px);
+}
+
+.PLR25{
+@include leftRightPadding(25px,25px);
+}
+
+.PLR30{
+@include leftRightPadding(30px,30px);
+}
+
+/*Padding top bottom helpers*/
+.PTB0{
+	@include topBottomPadding(0,0);
+}
+
+.PTB5{
+	@include topBottomPadding(5px,5px);
+}
+
+.PTB10{
+	@include topBottomPadding(10px,10px);
+}
+
+.PTB15{
+	@include topBottomPadding(15px,15px);
+}
+
+.PTB20{
+	@include topBottomPadding(20px,20px);
+}
+
+.PTB25{
+	@include topBottomPadding(25px,25px);
+}
+
+.PTB30{
+	@include topBottomPadding(30px,30px);
+}
+
+/*Padding equal top right bottom left helpers*/
+.PALL0 {
+	@include paddings(0,0,0,0);
+}
+
+.PALL5 {
+	@include paddings(5px,5px,5px,5px);
+}
+
+.PALL10 {
+	@include paddings(10px,10px,10px,10px);
+}
+
+.PALL15 {
+	@include paddings(15px,15px,15px,15px);
+}
+
+.PALL20 {
+	@include paddings(20px,20px,20px,20px);
+}
+
+.PALL25 {
+	@include paddings(25px,25px,25px,25px);
+}
+
+.PLL30 {
+	@include paddings(30px,30px,30px,30px);
+}
+
+/*General padding*/
+.P0{
+	@include generalPadding(0);
+}
+
+.P5{
+	@include generalPadding(5px);
+}
+
+.P10{
+	@include generalPadding(10px);
+}
+
+.P15{
+	@include generalPadding(15px);
+}
+
+.P20{
+	@include generalPadding(20px);
+}
+
+.P25{
+	@include generalPadding(25px);
+}
+
+.P30{
+	@include generalPadding(30px);
+}
+
+
+
+
+
+
+
+
+
+
+.P0 {
+	padding: 0;
+}
+
+.W100 {
+	width : 100%;
+}
+
+.H100 {
+	height : 100%;
+}
+
+.P15 {
+	padding: 15px;
+}
+.PT0L35{
+	padding: 0 35px;
+}
+
+.WIDTH150{
+	width: 150px !important;
+}
+.text-center{
+	text-align: center;
+}
+.description{
+	color: #B4B4B4;
+    font-size: 1.8em;
+    font-family: "Avenir-regular", Helvetica, sans-serif;
+}
+.PR0{
+	padding-right:0;
+}
+.sub-heading{
+	color: #B4B4B4;
+	font-family: "Oswald-Regular";
+}
+
+.ui-datatable th.ui-state-active {
+	color : #212121 !important;
+}

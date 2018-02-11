@@ -1,0 +1,52 @@
+$default-red : #F2524D;
+$greyish-black: #3d4553;
+$blue-default : #0A395F;
+$grey-default : #B4B4B4;
+$lighter-grey : #ECEFF1;
+$light-grey : #E7ECEE;
+$grey-version1 : #7888A0;
+
+
+.default-red {
+	color: $default-red;
+}
+.greyish-black {
+	color: $greyish-black;
+}
+.default-blue {
+	color: $blue-default;
+}
+.default-grey {
+	color: $grey-default;
+}
+.grey-light-1{
+	color : $light-grey; 
+}
+.grey-light-2{
+	color: $lighter-grey;
+}
+.greyish-black-2{
+	color: $grey-version1;
+}
+
+.bg-default-red {
+	background-color: $default-red;
+}
+.bg-greyish-black {
+	background-color: $greyish-black;
+}
+.bg-default-blue {
+	background-color: $blue-default;
+}
+.bg-default-grey {
+	background-color: $grey-default;
+}
+.bg-grey-light-1{
+	background-color : $light-grey; 
+}
+.bg-grey-light-2{
+	background-color: $lighter-grey;
+}
+.bg-greyish-black-2{
+	background-color: $grey-version1;
+}

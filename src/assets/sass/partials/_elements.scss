@@ -1,0 +1,66 @@
+/* living style guide style code */
+
+h1, .h1 {
+    color: $grey-version1;
+    font-size: 2.08vw; //40px
+    font-family: $Oswald-Regular;
+}
+
+h2, .h2 {
+    color: $greyish-black;
+    font-size:1.77vw; //34px
+    font-family:$Oswald-Regular;
+}
+
+h3, .h3, .subTitle {
+    color : $grey-default;
+    font-size: 1.46vw; //28px
+    font-family: $Oswald-Regular;
+}
+
+h4, .h4 {
+    color: $greyish-black;
+    font-size:1.25vw; //24px
+    font-family:$Avenir-Regular;
+}
+
+h5, .h5 {
+    color: $greyish-black;
+    font-size:1.04vw; //20px
+    font-family:$Avenir-Regular;
+}
+
+h6, .h6 {
+    color: $greyish-black;
+    font-size:0.83vw; //16px
+    font-family:$Avenir-Regular;
+}
+
+html, body, span, div,
+.html, .body, .span, .div  {
+    font-family: $Avenir-Regular;
+    font-size: 1.25vw; //24px;
+    color : $greyish-black;
+}
+
+p, .paragraph {
+    font-family: $Avenir-Regular;
+    font-size: 1.04vw; //20px;
+    color : $greyish-black;
+}
+
+a, .anchor{
+    font-family: $Avenir-Regular;
+    font-size: 1.04vw;//20px
+    color: #7888a0;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+label, .label {
+    font-family: $Avenir-Regular;
+    font-size: 1.04vw; //20px;
+    color : $greyish-black;
+    font-weight: 500;
+    text-align: left;
+}
